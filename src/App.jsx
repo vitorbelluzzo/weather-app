@@ -1,9 +1,9 @@
-import { Card } from "./components/card";
+import { WeatherApp } from "./components/weather-app";
 
 export default function App() {
   return (
-      <div>
-        <Card />
-      </div>
-  )
+    <div>
+      <WeatherApp />
+    </div>
+  );
 }

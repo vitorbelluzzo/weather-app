@@ -9,7 +9,7 @@ import rain from "../assets/rain.png";
 import snow from "../assets/snow.png";
 
 export function WeatherApp() {
-  const apiKey = "64251d6558dc7a158beb189685615aae";
+  const apiKey = "YOUR_API_KEY";
   const [wicon, setWicon] = useState(cloud);
 
   const search = async () => {
